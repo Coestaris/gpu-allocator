@@ -1,6 +1,7 @@
 use std::backtrace::BacktraceStatus;
 
 use egui::{Color32, DragValue, Rect, ScrollArea, Sense, Ui, Vec2};
+use egui::StrokeKind;
 
 use super::ColorScheme;
 use crate::allocator::free_list_allocator::MemoryChunk;
